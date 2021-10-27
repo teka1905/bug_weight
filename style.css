@@ -20,12 +20,6 @@ html,
       font-weight: 400;
       margin-bottom: 4px;
     }
-    a:link,
-    a:visited {
-      color: #000000;
-      outline: 0;
-      text-decoration: none;
-    }
     /*задаём ширину картинки*/
     img {
       width: 30px; /*ширина изображений*/
