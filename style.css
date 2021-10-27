@@ -1,0 +1,73 @@
+html,
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 380px;
+    }
+    /*задаём настройки для заголовков первого уровня*/
+    h1 {
+      font-family: 'Menlo', monospace;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #2f5876;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+    a:link,
+    a:visited {
+      color: #000000;
+      outline: 0;
+      text-decoration: none;
+    }
+    /*задаём ширину картинки*/
+    img {
+      width: 30px; /*ширина изображений*/
+    }
+    .modal-header {
+        align-items: center; /*выравнивание элементов по центру*/
+        border-bottom: 0.5px solid #dadada; /*свойства нижней разделительной линии*/
+        height: 50px;
+    }
+    form {
+        align-items: center; /*выравнивание элементов по центру*/
+        padding: 16px;
+    }
+    .logo {
+      padding: 16px; /*отступы со всех сторон*/
+    }
+    .logo-icon {
+      vertical-align: text-bottom; /*выравнивание по нижней части текста*/
+      margin-right: 12px; /*задётся отступ элементов от изображения*/
+    }
+    .version {
+      color: #444;
+      font-size: 18px;
+    }
+    .author {
+        color: #444444;
+        font-size: 8px;
+        align-items: center;
+        padding-left: 16px;
+    }
+    #total {
+        font-family: 'Menlo', monospace;
+        font-size: 50px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+        text-align: center;
+    }
+    select {
+        padding-left: 10px;
+        align-items: center;
+        height: 25px;
+        width: 320px;
+        font-size: 15px;
+    }
