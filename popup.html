@@ -18,28 +18,28 @@
     <form name="formCalc">
 
         <h2>Массовость</h2>
-        <select id="mass" onchange="funcCalc()">
+        <select id="mass" data-action="calculate">
             <option value= 1>Единичная ошибка</option>
             <option value= 3>Затрагивает большинство пользователей</option>
         </select>
 
         <h2>Насколько блокирует</h2>
-        <select id="block" onchange="funcCalc()">
+        <select id="block" data-action="calculate">
             <option value= 1>Не блокирует</option>
             <option value= 2>Блокирует, но есть обходное решение</option>
             <option value= 3>Блокирует полностью</option>
         </select>
 
         <h2>Критичность области, в которой возникла ошибка</h2>
-        <select id="critical" onchange="funcCalc()">
+        <select id="critical" data-action="calculate">
             <option value= 1>Нормальная</option>
             <option value= 3>Критичная</option>
         </select>
     </form>
-<div id="total">Вес ошибки
-    <script src="popup.js"></script>
-</div>
+<div id="total">Вес ошибки</div>
 <div class="author">a.dolmatov@2gis.ru</div>
+
+<script src="popup.js"></script>
 </body>
 
 </html>
