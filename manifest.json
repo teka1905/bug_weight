@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Error weight",
 	"description": "Калькулятор веса ошибки",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"icons": {"128": "icon_128.png"},
 	"browser_action": {
 		"default_icon": "icon.png",

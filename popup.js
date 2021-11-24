@@ -9,3 +9,18 @@ const inputElements = document.querySelectorAll('[data-action="calculate"]');
 inputElements.forEach((element) => {
     element.addEventListener('change', window.funcCalc)
 });
+
+function copyToClipboard() {
+  let area = document.createElement('textarea');
+
+  document.body.appendChild(area);
+    area.value = document.getElementById("total").textContent;
+    area.select();
+    document.execCommand("copy");
+  document.body.removeChild(area);
+}
+
+const copyElement = document.querySelectorAll('[data-action="copyElement"]');
+inputElements.forEach((element) => {
+    element.addEventListener('change', window.copyToClipboard)
+});
