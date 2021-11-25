@@ -21,6 +21,6 @@ function copyToClipboard() {
 }
 
 const copyElement = document.querySelectorAll('[data-action="copyElement"]');
-inputElements.forEach((element) => {
-    element.addEventListener('change', window.copyToClipboard)
+copyElement.forEach((element) => {
+    element.addEventListener('click', window.copyToClipboard)
 });
