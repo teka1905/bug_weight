@@ -7,7 +7,6 @@ html,
       padding: 0;
       width: 380px;
     }
-    /*задаём настройки для заголовков первого уровня*/
     h1 {
       font-family: 'Menlo', monospace;
       font-size: 22px;
@@ -20,35 +19,28 @@ html,
       font-weight: 400;
       margin-bottom: 4px;
     }
-    /*задаём ширину картинки*/
     img {
-      width: 30px; /*ширина изображений*/
+      width: 30px;
     }
     .modal-header {
-        align-items: center; /*выравнивание элементов по центру*/
-        border-bottom: 0.5px solid #dadada; /*свойства нижней разделительной линии*/
+        align-items: center;
+        border-bottom: 1px solid #dadada;
         height: 50px;
     }
     form {
-        align-items: center; /*выравнивание элементов по центру*/
+        align-items: center;
         padding: 16px;
     }
     .logo {
-      padding: 16px; /*отступы со всех сторон*/
+      padding: 16px;
     }
     .logo-icon {
-      vertical-align: text-bottom; /*выравнивание по нижней части текста*/
-      margin-right: 12px; /*задётся отступ элементов от изображения*/
+      vertical-align: text-bottom;
+      margin-right: 12px;
     }
     .version {
       color: #444;
       font-size: 18px;
-    }
-    .author {
-        color: #444444;
-        font-size: 8px;
-        align-items: center;
-        padding-left: 16px;
     }
     #total {
         font-family: 'Menlo', monospace;
@@ -77,7 +69,7 @@ html,
     #copyText {
         color: #444444;
         font-size: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 0;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 0;
     }

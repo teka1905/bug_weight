@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Error weight",
+	"name": "Bug weight",
 	"description": "Калькулятор веса ошибки",
 	"version": "1.0.3",
-	"icons": {"128": "icon_128.png"},
+	"icons": {"128": "icon.png"},
 	"browser_action": {
 		"default_icon": "icon.png",
 		"default_popup": "popup.html"
